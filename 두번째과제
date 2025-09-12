@@ -1,0 +1,73 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "NtccjEH_7btd",
+        "outputId": "9832cf3c-405d-43c2-d642-c74b4adeda7a"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "김소현\n",
+            "22\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"김소현\")\n",
+        "print(\"22\")\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=[2, 3, 4, 5, 6 ]\n",
+        "rev_a=[]\n",
+        "for i in range(len(a)):\n",
+        "  rev_a.append(a.pop())\n",
+        "print(\"a=\", [2,3,4,5,6])\n",
+        "print(\"rev_a=\", rev_a)\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vn1WqWLKR10U",
+        "outputId": "5f8e064e-2215-44ae-ee6f-57eac677aba5"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "a= [2, 3, 4, 5, 6]\n",
+            "rev_a= [6, 5, 4, 3, 2]\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
